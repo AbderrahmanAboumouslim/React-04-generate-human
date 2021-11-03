@@ -75,37 +75,45 @@ function App() {
           <p className="user-title">My {title} is:</p>
           <p className="user-display">{display}</p>
           <div className="user-info">
-            <button className="icon" data-text="name" onClick={handleClickInfo}>
+            <button
+              className="icon"
+              data-text="name"
+              onMouseOver={handleClickInfo}
+            >
               <FaUser />
             </button>
             <button
               className="icon"
               data-text="email"
-              onClick={handleClickInfo}
+              onMouseOver={handleClickInfo}
             >
               <FaEnvelopeOpen />
             </button>
-            <button className="icon" data-text="age" onClick={handleClickInfo}>
+            <button
+              className="icon"
+              data-text="age"
+              onMouseOver={handleClickInfo}
+            >
               <FaCalendarTimes />
             </button>
             <button
               className="icon"
               data-text="street"
-              onClick={handleClickInfo}
+              onMouseOver={handleClickInfo}
             >
               <FaMap />
             </button>
             <button
               className="icon"
               data-text="phone"
-              onClick={handleClickInfo}
+              onMouseOver={handleClickInfo}
             >
               <FaPhone />
             </button>
             <button
               className="icon"
               data-text="password"
-              onClick={handleClickInfo}
+              onMouseOver={handleClickInfo}
             >
               <FaLock />
             </button>
